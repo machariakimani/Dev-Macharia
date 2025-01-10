@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 
 function Header() {
 
-    const [menu, setmenu] = useState(false);
+    const [menu, setmenu] = useState(true);
 
    
     
@@ -45,7 +45,7 @@ function Header() {
                 <div className='hidden sm:block'>
                 <div className=' flex items-center gap-3  '>
                     <button  className=" bg-blue-700  text-white   rounded-md hover:bg-blue-500 px-6 py-2  " >Email</button>
-                    <button className="  border border-black  text-white   rounded-md  hover:bg-green-600 px-6 py-2  ">Whatsapp</button>
+                    <button className="  border border-black  text-white   rounded-md  hover:bg-green-500 px-6 py-2  ">Whatsapp</button>
                 </div>
                 </div>
                 

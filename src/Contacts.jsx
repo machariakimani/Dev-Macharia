@@ -15,7 +15,7 @@ function Contacts(){
 
     return(
 
-        <div id='contacts' className='h-full flex flex-col bg-[url(./assets/conts.jpg)] bg-no-repeat bg-cover dark:bg-black p-10'>
+        <div id='contacts' className='h-full flex flex-col scroll-mt-16 bg-[url(./assets/conts.jpg)] bg-no-repeat bg-cover dark:bg-black p-10'>
                 <div className='mb-6  '>
                         <p className="text-center text-2xl underline underline-offset-8 "> Contacts</p>
                 </div>

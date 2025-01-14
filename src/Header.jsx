@@ -45,10 +45,9 @@ function Header() {
                 <div className='hidden sm:block'>
                 <div className=' flex items-center gap-3  '>
                     <button  className=" bg-blue-700  text-white   rounded-md hover:bg-blue-500 px-6 py-2  " >Email</button>
-                    <button className="  border border-black  text-white   rounded-md  hover:bg-green-500 px-6 py-2  ">Whatsapp</button>
+                    <button className="  border border-black  text-white   rounded-md  hover:bg-green-500 hover:border-gray-300 px-6 py-2  ">Whatsapp</button>
                 </div>
                 </div>
-                <p>ji</p>
                 
                
 

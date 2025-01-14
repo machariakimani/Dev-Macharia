@@ -25,12 +25,12 @@ function Skills(){
     return(
         <>
 
-        <div className="h-full bg-gray-200 scroll-mt-24 px-20 py-10" id="stack">
+        <div className="h-full flex flex-col justify-center items-center sm:items-stretch  bg-gray-200 scroll-mt-20 px-16 py-10" id="stack">
         <div>
-             <p className="text-center text-2xl underline-offset-8 underline ">Tech Stack</p>
+             <p className=" text-2xl text-center underline-offset-8 underline ">Tech Stack</p>
              
         </div>
-        <div className="grid   sm:grid-cols-2 lg:grid-cols-3  justify-between gap-x-2 gap-y-4 px-20 py-10">
+        <div className="grid   md:grid-cols-2 lg:grid-cols-3  justify-between gap-x-2 gap-y-4 px-20 py-10">
             <div className="bg-gray-300 hover:bg-gray-400 h-[350px] w-80  shadow-red-500-shadow-xl ">
                 <div> <img src={FrontEnd}/></div>
                 <div className="flex justify-start gap-2 ml-4 items-center mt-3">

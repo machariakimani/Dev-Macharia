@@ -21,7 +21,7 @@ function Services(){
                   </div>     
                  <div  className=' h-[320px] w-full  md:w-1/4 py-12 items-center flex flex-col  hover:border-gray-100 hover:border-b-4 hover:border-solid'>
                     <img src={sms} className='h-48 w-56 mb-4 rounded-xl'/>
-                    <p className='w-[200px] text-center'>Bulk sms disbusment and Integration</p>
+                    <p className='w-[201px] text-center'>Bulk sms disbusment and Integration</p>
                  </div>
 
                  <div  className=' h-[320px] w-full md:w-1/4 py-12 items-center flex flex-col hover:border-b-4 hover:border-solid  hover:border-gray-100'>

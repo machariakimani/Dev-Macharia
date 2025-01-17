@@ -14,7 +14,7 @@ function Services(){
             </div>
        
       <div className="flex flex-col md:flex-row items-center justify-center   gap-x-8 mt-4 px-20">
-                 <div className=' h-[320px] w-full md:w-1/4 py-12 items-center flex flex-col hover:border-b-4 hover:border-solid  hover:border-gray-100'>
+                 <div className=' h-[321px] w-full md:w-1/4 py-12 items-center flex flex-col hover:border-b-4 hover:border-solid  hover:border-gray-100'>
                     <img src={Mobile} className='h-48   mb-4 rounded-xl'/>
                     <p>Mobile apps Developments</p>
 

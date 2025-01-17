@@ -31,7 +31,7 @@ function Skills(){
              
         </div>
         <div className="grid   md:grid-cols-2 lg:grid-cols-3  justify-between gap-x-2 gap-y-4 px-20 py-10">
-            <div className="bg-gray-300 hover:bg-gray-400 h-[350px] w-80  shadow-red-500-shadow-xl ">
+            <div className="bg-gray-300 hover:bg-gray-400 h-[351px] w-80  shadow-red-500-shadow-xl ">
                 <div> <img src={FrontEnd}/></div>
                 <div className="flex justify-start gap-2 ml-4 items-center mt-3">
                     <img src={React10} className="h-10 bg-gray-400"/>

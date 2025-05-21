@@ -8,30 +8,34 @@ function Services(){
 
 
     return(
-        <div  className=" justify-center py-5 flex flex-col scroll-mt-24   w-full  h-full bg-gradient-to-t from-blue-600 to-gray-200 " id='Services'>
+        <div   className="py-5 flex flex-col items-center justify-center gap-7 scroll-mt-24   w-full  h-full bg-gradient-to-b from-blue-500 to-gray-50 " id='Services'>
           <div className='  '>
-            <p className="text-center text-2xl underline underline-offset-8 "> Services</p>
+            <p className="text-2xl underline underline-offset-8 "> Services</p>
             </div>
        
-      <div className="flex flex-col md:flex-row items-center justify-center   gap-x-8 mt-4 px-20">
-                 <div className=' h-[321px] w-full md:w-1/4 py-12 items-center flex flex-col hover:border-b-4 hover:border-solid  hover:border-gray-100'>
-                    <img src={Mobile} className='h-48   mb-4 rounded-xl'/>
-                    <p>Mobile apps Developments</p>
+            <div className=" md:flex grid grid-cols-1    md:gap-x-4 gap-4" >
+          <div className="items-center flex flex-col hover:border-b-[3px] border-blue-400  md:w-1/4 w-full  p-6">
+            <img src={Webdev} className="h-48" />
+            <h1 className="text-md text-slate-900 font-semibold" >Web and software development</h1>
+          </div>
 
-                  </div>     
-                 <div  className=' h-[320px] w-full  md:w-1/4 py-12 items-center flex flex-col  hover:border-gray-100 hover:border-b-4 hover:border-solid'>
-                    <img src={sms} className='h-48 w-56 mb-4 rounded-xl'/>
-                    <p className='w-[201px] text-center'>Bulk sms disbusment and Integration</p>
-                 </div>
+         <div className="items-center flex flex-col hover:border-b-[3px] border-blue-400   w-full md:w-1/4  p-4">
+            <img src={Mobile} className="h-48" />
+            <h1 className="text-md text-slate-900 font-semibold" >Mobile Application</h1>
+          </div>
 
-                 <div  className=' h-[320px] w-full md:w-1/4 py-12 items-center flex flex-col hover:border-b-4 hover:border-solid  hover:border-gray-100'>
-                    <img src={payment} className = "h-48 w-56 mb-4 rounded-xl"/>
-                    <p className='w-[300px] text-center'>Payment Gateway Integration Mpesa,Paypal,Stripe</p>
-                 </div>
-                 <div  className=' h-[320px] w-full md:w-1/4 py-12 items-center flex flex-col hover:border-b-4 hover:border-solid  hover:border-gray-100'>
-                    <img src={Webdev} className='h-48   mb-4 rounded-xl'/>
-                    <p>Web and software delelopment</p>
-                 </div>
+          <div className="items-center flex flex-col hover:border-b-[3px] border-blue-400  w-full md:w-1/5  p-4">
+            <img src={payment} className="h-48" />
+            <h1 className="text-md text-center text-slate-900 font-semibold" >Payment Gateway Integration
+
+Mpesa,Paypal </h1>
+          </div>
+
+          <div className="items-center  flex flex-col hover:border-b-[3px] border-blue-400  w-full md:w-1/5  p-4">
+            <img src={sms} className="h-48" />
+            <h1 className=" text-center font-semibold text-slate-900 " >Bulk SMS Integration</h1>
+          </div>
+
         </div>
       
         </div>

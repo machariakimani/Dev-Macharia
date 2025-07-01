@@ -34,7 +34,7 @@ function Header() {
 
 return (
 <div>
-<header className={`fixed w-full top-0 left-0 right-0 z-50 p-2 transition-colors duration-500 ${scrolled ? 'bg-white bg-opacity-70' : 'bg-transparent'}`} >
+<header className={`fixed w-full top-0 left-0 right-0 z-50 p-2 transition-colors duration-500 ${scrolled ? 'bg-white bg-opacity-90' : 'bg-transparent'}`} >
     <section className="max-w-7xl   mx-auto px-3 flex justify-between items-center">
         <div className="text-2xl font-bold flex items-center gap-3">
             <img src={Tag} className="h-12 " />

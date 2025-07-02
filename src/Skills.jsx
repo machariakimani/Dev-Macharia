@@ -32,10 +32,14 @@ function Skills(){
         <>
 
         <div className="h-full flex flex-col justify-center items-center sm:items-stretch  bg-gray-50 scroll-mt-20 px-16 py-10" id="Stack">
-        <div>
-             <p className=" text-2xl text-center underline-offset-8 underline ">Tech Stack</p>
-             
+        <div className="flex justify-center flex-col">
+             <h2 className="text-3xl text-center font-bold text-black mb-2">
+          Tech <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">Stack</span>
+        </h2>
+        <div className="w-28 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto rounded-full"></div>
         </div>
+             
+
         <div className="grid   md:grid-cols-2 lg:grid-cols-3  justify-between gap-x-2 gap-y-4 px-10 py-10">
             <div className="bg-gray-100 hover:bg-gray-200 border border-gray-200 h-[351px] w-80   ">
                 <div className="h-[186px] flex items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600">

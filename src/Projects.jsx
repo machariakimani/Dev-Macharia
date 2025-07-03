@@ -83,7 +83,7 @@ const Projects = () => {
                             <img 
                                 src={Isosoft} 
                                 alt="isosoft" 
-                                className="w-full h-64 lg:h-full object-cover transition-transform duration-700 "
+                                className="w-full h-64 lg:h-full  transition-transform duration-700 "
                             />
                            
                         </div>

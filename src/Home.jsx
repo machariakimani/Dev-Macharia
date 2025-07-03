@@ -57,8 +57,8 @@ return(
         <article className="text-white sm:text-lg ">A deligent software and fullstack web developer knowledgable of modern development tools ie,<br></br> <span className="text-blue-500 font-bold ">FrontEnd:</span>Javascript, TypeScript, ReactJs, Tailwind CSS,AngularJs. <br></br> <span className="text-blue-500 font-bold ">BackEnd:</span> NodeJs,Express Js, MongoDB, MySQL,PostGreSql and Infrastructure as code technologies like Github,Docker,Render.</article>
 
         <div className="flex gap-4"> 
-            <button className="bg-blue-400 p-2 rounded md hover:bg-blue-500 hover:shadow-md text-white" >Services</button>
-            <button className="bg-blue-400 p-2 flex rounded md hover:bg-blue-500 hover:shadow-md text-white "> 
+            <button className="bg-blue-700 p-2 rounded md hover:bg-blue-500 hover:shadow-md text-white" >Services</button>
+            <button className="bg-blue-700 p-2 flex rounded md hover:bg-blue-500 hover:shadow-md text-white "> 
                Blogs</button>
         </div>
         <div  className="lg:hidden flex flex-col gap-4 md:gap-0" ><h1 className="text-xl md:text-2xl h-[40px] font-bold text-blue-500 " >I do Create: <span className="text-white">{currentText}</span>  <span className="blinking-cursor">|</span> </h1>

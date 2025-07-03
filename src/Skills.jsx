@@ -22,6 +22,9 @@ import {
     SiMysql, 
     SiPostgresql, 
     SiMongodb,
+    SiExpress,
+    SiAngular,
+    SiNativescript,
     SiCapacitor,
     SiRender
 } from "react-icons/si";
@@ -49,6 +52,10 @@ function Skills(){
                     <FaReact className="h-10 w-10 text-blue-500" />
                     <p> React JS</p>
                 </div>
+                <div className="flex justify-start gap-2 ml-4 items-center mt-3">
+                    <SiAngular className="h-9 w-9 text-blue-500" />
+                    <p> Angular JS</p>
+                </div>
 
                 <div className="flex justify-start gap-2 ml-4 items-center mt-3">
                     <SiTailwindcss className="h-10 w-10 text-cyan-500" />
@@ -65,6 +72,10 @@ function Skills(){
                 <div className="flex justify-start gap-2 ml-4 items-center mt-3">
                     <FaNodeJs className="h-10 w-12 text-green-600"/>
                     <p> Node JS</p>
+                </div>
+                <div className="flex justify-start gap-2 ml-4 items-center mt-3">
+                    <SiExpress className="h-10 w-12 text-green-600"/>
+                    <p> Express JS</p>
                 </div>
                 <div className="flex justify-start gap-2 ml-4 items-center mt-3">
                     <Settings className="h-10 w-12 text-gray-600"/>
@@ -98,7 +109,7 @@ function Skills(){
 
                 <div className="flex justify-start gap-2 ml-4 items-center mt-3">
                     <SiPostgresql className="h-10 w-10 text-blue-700" />
-                    <p> PostGreSql</p>
+                    <p> PostgreSql</p>
                 </div>
 
                 <div className="flex justify-start gap-2 ml-4 items-center mt-3">

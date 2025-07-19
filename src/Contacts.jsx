@@ -133,9 +133,9 @@ function Contacts() {
       >
         <div className="py-6 px-4">
           <div className="mb-8">
-            <h1 className="text-center mb-2 text-2xl font-semibold text-gray-800 drop-shadow-lg">
-              Contact Me
-            </h1>
+           <h1 className="text-3xl text-center font-bold text-black mb-2">
+          Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">Me</span>
+        </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto rounded-full"></div>
            
           </div>

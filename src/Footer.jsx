@@ -45,7 +45,7 @@ function Footer() {
 
     return (
         <footer className="z-50 bg-gradient-to-r  from-slate-900 via-blue-900 to-gray-900 border-t border-gray-700">
-            <div className=" px-3 py-3">
+            <div className=" px-3 py-1">
                 {/* Main footer content */}
                 <div className="flex  md:flex-row justify-between  gap-1">
                     

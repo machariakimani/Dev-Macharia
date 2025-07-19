@@ -7,9 +7,9 @@ const Projects = () => {
     return(<>
     <main id="Projects" className="min-h-screen  bg-gradient-to-br from-blue-50 via-purple-50 to-slate-100 py-6 px-4 sm:px-6 lg:px-8">
         <header className="text-center mb-6">
-           <h2 className="text-3xl font-bold text-black mb-2">
-           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">Projects</span>
-        </h2>
+           <h1 className="text-3xl text-center font-bold text-black mb-2">
+          Track <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">Projects</span>
+        </h1>
             <div className="w-28 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto rounded-full"></div>
         </header>
         <div className="max-w-6xl mx-auto space-y-10">
@@ -35,7 +35,7 @@ const Projects = () => {
                                 </div>
                                 <p className="text-gray-600 leading-relaxed text-sm md:text-lg">John-Tech repairs is firm that does all sorts of electric appliances repairs. The system enables the staff at John-Tech to assign a note with information pertaining appliances to be repaired and the note is stored in an online database instead of the traditional physical stiky note papers</p>
                             </article>
-                            <a 
+                            <a target="blank"
                                 href="https://john-tech-repairs-t4sv.onrender.com"
                                 className="inline-flex items-center space-x-3 mt-2 px-4 py-2 bg-gradient-to-r from-blue-400 to-blue-500 text-white font-semibold rounded-xl hover:from-blue-500 hover:to-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 group/btn"
                             >
@@ -64,7 +64,7 @@ const Projects = () => {
                                 </div>
                                 <p className="text-gray-600 leading-relaxed md:text-lg">CoolN'Deadly is an Kenyan based company that deals with Automotive related activities such as Cars Sale, SpareParts sale and installation,Vehicle repairs and Garage services. The system enables them to showcase their products and manage their products inventory</p>
                             </article>
-                            <a 
+                            <a target="blank"
                                 href="https://coolndeadly.onrender.com"
                                 className="inline-flex items-center space-x-3 mt-8 px-8 py-2 bg-gradient-to-r from-blue-400 to-blue-500 text-white font-semibold rounded-xl hover:from-blue-500 hover:to-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 group/btn"
                             >
@@ -97,7 +97,7 @@ const Projects = () => {
                                 </div>
                                 <p className="text-gray-600 leading-relaxed md:text-lg">Isosoft Softwares is a company that deals with software develpment.They create products ranging from web application,business management systems,mobile aplications. The company dashboard enables them to manage their work inventory with ease</p>
                             </article>
-                            <a 
+                            <a target="_blank"
                                 href="https://dev-macharia.onrender.com"
                                 className="inline-flex items-center space-x-2 mt-2 px-8 py-2 bg-gradient-to-r from-blue-400 to-blue-500 text-white font-semibold rounded-xl hover:from-blue-500 hover:to-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 group/btn"
                             >

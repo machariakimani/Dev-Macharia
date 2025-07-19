@@ -246,7 +246,7 @@ function Header() {
                 activeClass={activeClass}
                 className={linkClass}
               >
-                Contact Us
+                Contacts
               </Link>
             </nav>
 

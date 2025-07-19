@@ -20,7 +20,7 @@ function Services() {
       {/* Header Section */}
       <div className="text-center">
         <h2 className="text-3xl font-bold text-black mb-2">
-          Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">Services</span>
+          My <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">Services</span>
         </h2>
         <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-blue-600 mx-auto mb-3"></div>
         <p className="text-slate-800 text-lg max-w-2xl mx-auto">

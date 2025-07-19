@@ -36,9 +36,9 @@ function Skills(){
 
         <div className="h-full flex flex-col justify-center items-center sm:items-stretch  bg-gray-50 scroll-mt-20 px-16 py-10" id="Stack">
         <div className="flex justify-center flex-col">
-             <h2 className="text-3xl text-center font-bold text-black mb-2">
-          Tech <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">Stack</span>
-        </h2>
+             <h1 className="text-3xl text-center font-bold text-black mb-2">
+          Tech <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-600">Stack</span>
+        </h1>
         <div className="w-28 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto rounded-full"></div>
         </div>
              

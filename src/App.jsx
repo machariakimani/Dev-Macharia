@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <QueryClientProvider client={queryClient}>
-      <Header/>
+      
       <Home/>
      <Services/>
      <Skills/>

@@ -188,7 +188,7 @@ function Services() {
             <p className="text-slate-600 mb-6 lg:text-lg">
               Let's discuss how we can bring your vision to life
             </p>
-            <button onClick={openWhatsApp} className="px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 active:scale-95">
+            <button onClick={openWhatsApp} className="px-8 py-4 rounded-full bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 active:scale-95">
               Get Started Today
             </button>
           </div>

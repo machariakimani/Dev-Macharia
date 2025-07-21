@@ -28,7 +28,7 @@ const Projects = () => {
                         <div className="lg:w-1/2 p-4 lg:p-8 flex flex-col justify-between">
                             <article className="space-y-3">
                                 <div className="flex items-center space-x-3 mb-1">
-                                    <div className="p-2 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl">
+                                    <div className="p-2 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl">
                                         <Wrench className="w-5 h-5 text-white" />
                                     </div>
                                     <h1 className="md:text-2xl text-lg font-semibold text-slate-800  ">JohnTech Repairs</h1>
@@ -37,7 +37,7 @@ const Projects = () => {
                             </article>
                             <a target="blank"
                                 href="https://john-tech-repairs-t4sv.onrender.com"
-                                className="inline-flex items-center space-x-3 mt-2 px-4 py-2 bg-gradient-to-r from-blue-400 to-blue-500 text-white font-semibold rounded-xl hover:from-blue-500 hover:to-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 group/btn"
+                                className="inline-flex items-center space-x-3 mt-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl  transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 group/btn"
                             >
                                 <span>Visit Site</span>
                                 <ExternalLink className="w-5 h-5 transition-transform group-hover/btn:translate-x-1" />
@@ -57,7 +57,7 @@ const Projects = () => {
                         <div className="lg:w-1/2 p-4 lg:p-8 flex flex-col justify-between">
                             <article className="space-y-3">
                                 <div className="flex items-center space-x-3 mb-2">
-                                    <div className="p-2 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl">
+                                    <div className="p-2 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl">
                                         <Car className="w-5 h-5 text-white" />
                                     </div>
                                     <h1 className="md:text-2xl text-lg font-bold text-gray-800 ">CoolN'Deadly</h1>
@@ -66,7 +66,7 @@ const Projects = () => {
                             </article>
                             <a target="blank"
                                 href="https://coolndeadly.onrender.com"
-                                className="inline-flex items-center space-x-3 mt-8 px-8 py-2 bg-gradient-to-r from-blue-400 to-blue-500 text-white font-semibold rounded-xl hover:from-blue-500 hover:to-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 group/btn"
+                                className="inline-flex items-center space-x-3 mt-8 px-8 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl  transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 group/btn"
                             >
                                 <span>Visit Site</span>
                                 <ExternalLink className="w-5 h-5 transition-transform group-hover/btn:translate-x-1" />
@@ -90,7 +90,7 @@ const Projects = () => {
                         <div className="lg:w-1/2 p-4 lg:p-4 flex flex-col justify-between">
                             <article className="space-y-3">
                                 <div className="flex items-center space-x-2 mb-2">
-                                    <div className="p-2 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl">
+                                    <div className="p-2 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl">
                                         <Code className="w-5 h-5 text-white" />
                                     </div>
                                     <h1 className="md:text-2xl text-lg font-bold text-gray-800 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-purple-600 group-hover:bg-clip-text transition-all duration-300">Isosoft Softwares</h1>
@@ -99,7 +99,7 @@ const Projects = () => {
                             </article>
                             <a target="_blank"
                                 href="https://dev-macharia.onrender.com"
-                                className="inline-flex items-center space-x-2 mt-2 px-8 py-2 bg-gradient-to-r from-blue-400 to-blue-500 text-white font-semibold rounded-xl hover:from-blue-500 hover:to-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 group/btn"
+                                className="inline-flex items-center space-x-2 mt-2 px-8 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl  transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 group/btn"
                             >
                                 <span>View Site</span>
                                 <ExternalLink className="w-5 h-5 transition-transform group-hover/btn:translate-x-1" />

@@ -18,6 +18,14 @@ function Contacts() {
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  const openWhatsApp = () => {
+    const phoneNumber = '254742310701'; 
+    const message = `Hello Macharia! Let's talk.`;
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    window.open(whatsappURL, '_blank');
+  }
+
   // API function 
   const sendMessage = async (data) => {
     const response = await axiosPublic.post("/messages/send", data, {
@@ -28,13 +36,7 @@ function Contacts() {
     return response.data;
   };
 
-   const openWhatsApp = () => {
-    const phoneNumber = '254742310701'; 
-    const message = `Hello Macharia! Let's talk.`;
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    window.open(whatsappURL, '_blank');
-  }
+   
 
   // Mutation
   const createMutation = useMutation({
@@ -126,7 +128,7 @@ function Contacts() {
 
   return (
     <>
-      <Header />
+     
       <div
         id="Contacts"
         className="min-h-screen w-full flex flex-col bg-gradient-to-br from-blue-100 via-purple-100 to bg-slate-100 "
@@ -134,7 +136,7 @@ function Contacts() {
         <div className="py-6 px-4">
           <div className="mb-8">
            <h1 className="text-3xl text-center font-bold text-black mb-2">
-          Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">Me</span>
+          Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-700">Me</span>
         </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-blue-500 mx-auto rounded-full"></div>
            
@@ -152,7 +154,7 @@ function Contacts() {
               <div className="">
                 <div className="flex items-center gap-4 px-4 rounded-lg  ">
                   <div className="flex-shrink-0">
-                    <FaPhone className="h-6 w-6 text-blue-500" />
+                    <FaPhone className="h-6 w-6 text-blue-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-800">Call</p>

@@ -78,7 +78,7 @@ function Header() {
           {/** Small screen  menu  **/}
 
           <div
-            className={`sm:hidden absolute top-[55px] left-0 w-72 bg-gradient-to-br from-gray-100 to-gray-200 text-slate-800 flex flex-col font-semibold text-lg transform transition-all duration-500 ease-out shadow-2xl rounded-lg border border-blue-400/30 backdrop-blur-sm origin-top ${
+            className={`sm:hidden absolute top-[63px] left-0 w-72 bg-gradient-to-br from-gray-100 to-gray-200 text-slate-800 flex flex-col font-semibold text-lg transform transition-all duration-500 ease-out shadow-2xl rounded-lg border border-blue-400/30 backdrop-blur-sm origin-top ${
               menu
                 ? "opacity-100 scale-x-100 translate-x-2 visible"
                 : "opacity-0 scale-x-0 -translate-x-2 invisible"

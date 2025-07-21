@@ -2,6 +2,7 @@ import dev from "./assets/Dev2.jpg"
 import React, {useState,useEffect } from "react";
 const texts = ["Fast and reliable Web Apps", "AU/AX Designs", "Mordern and Efficient Mobile Apps ", "Business Management Solutions", "Gateways for Bulk SMS Intergration"];
 import "./Animations.css"
+import Header from "./Header";
 
 function Home(){
 
@@ -49,10 +50,10 @@ useEffect(() => {
   return () => clearTimeout(timer);
 }, [currentText, isDeleting, loopNum, typingSpeed, currentIndex]);
 
-return(
-
-<div id="Home" className="min-h-screen px-5 xl:px-28 py-10 pt-[80px] bg-[url(./assets/image.jpg)] scroll-mt-20  bg-repeat-round flex flex-row ">
-    <div id="Title" className="md:w-1/2 w-full py-20 flex flex-col pr-7 gap-6">
+return(<>
+<Header/>
+<div id="Home" className="lg:min-h-screen  px-5 xl:px-28  py-10 pt-[80px] bg-[url(./assets/image.jpg)] scroll-mt-20  bg-repeat-round flex flex-row ">
+    <div id="Title" className="md:w-1/2 w-full lg:py-20 flex flex-col pr-7 gap-6">
         <h1 className="text-white text-xl lg:text-3xl font-bold  "> <span className="text-blue-600" >Greetings!</span> <br/> Am Dev Macharia,a Software and Web Developer.</h1>
         <article className="text-white sm:text-lg ">A deligent software and fullstack web developer knowledgable of modern development tools ie,<br></br> <span className="text-blue-600 font-bold ">FrontEnd:</span>Javascript, TypeScript, ReactJs, Tailwind CSS,AngularJs. <br></br> <span className="text-blue-600 font-bold ">BackEnd:</span> NodeJs,Express Js, MongoDB, MySQL,PostGreSql and Infrastructure as code technologies like Github,Docker,Render.</article>
 
@@ -76,6 +77,9 @@ return(
     
 
 </div>
+</>
+
+
 );
 }
 
